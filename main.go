@@ -8,6 +8,7 @@ import (
 func main() {
 	ch1.HelloWorld()
 	ch1.Conversisons()
+	ch1.Functions()
 
 	ch2.Guess()
 }
