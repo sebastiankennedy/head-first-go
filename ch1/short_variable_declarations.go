@@ -5,7 +5,7 @@ import "fmt"
 func ShortVariableDeclarations() {
 	quantity := 4
 	length, width := 1.2, 2.4
-	customerName := "Damon Cole"
+	customerName := "Sebastian Lu"
 
 	fmt.Println(customerName)
 	fmt.Println("has ordered", quantity, "sheets")
