@@ -10,6 +10,8 @@ func main() {
 	ch1.Conversisons()
 	ch1.Functions()
 	ch1.ShortVariableDeclarations()
+	ch1.Types()
+	ch1.VariableDeclarations()
 
 	ch2.Guess()
 }
