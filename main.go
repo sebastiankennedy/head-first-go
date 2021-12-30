@@ -11,6 +11,7 @@ func main() {
 	ch1.Functions()
 	ch1.ShortVariableDeclarations()
 	ch1.Types()
+	ch1.Values()
 	ch1.VariableDeclarations()
 
 	ch2.Guess()
