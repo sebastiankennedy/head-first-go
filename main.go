@@ -15,4 +15,6 @@ func main() {
 	ch1.VariableDeclarations()
 
 	ch2.Guess()
+	ch2.CallingMethods()
+	ch2.PassFail()
 }
