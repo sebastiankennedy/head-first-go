@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/sebastiankennedy/head-first-go/ch1"
 	"github.com/sebastiankennedy/head-first-go/ch2"
+	"github.com/sebastiankennedy/head-first-go/ch3"
 )
 
 func main() {
@@ -17,4 +18,6 @@ func main() {
 	ch2.Guess()
 	ch2.CallingMethods()
 	ch2.PassFail()
+
+	ch3.Paint()
 }
