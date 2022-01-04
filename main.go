@@ -4,6 +4,9 @@ import (
 	"github.com/sebastiankennedy/head-first-go/ch1"
 	"github.com/sebastiankennedy/head-first-go/ch2"
 	"github.com/sebastiankennedy/head-first-go/ch3"
+	ch4_greeting "github.com/sebastiankennedy/head-first-go/ch4/greeting"
+	ch4_greet_dansk "github.com/sebastiankennedy/head-first-go/ch4/greeting/dansk"
+	ch4_greeting_deutsch "github.com/sebastiankennedy/head-first-go/ch4/greeting/deutsch"
 )
 
 func main() {
@@ -20,4 +23,11 @@ func main() {
 	ch2.PassFail()
 
 	ch3.Paint()
+
+	ch4_greeting.Hi()
+	ch4_greeting.Hello()
+	ch4_greet_dansk.Hej()
+	ch4_greet_dansk.GodMorgen()
+	ch4_greeting_deutsch.Hallo()
+	ch4_greeting_deutsch.GutenTag()
 }
