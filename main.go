@@ -7,6 +7,7 @@ import (
 	ch4_greeting "github.com/sebastiankennedy/head-first-go/ch4/greeting"
 	ch4_greet_dansk "github.com/sebastiankennedy/head-first-go/ch4/greeting/dansk"
 	ch4_greeting_deutsch "github.com/sebastiankennedy/head-first-go/ch4/greeting/deutsch"
+	ch5_average "github.com/sebastiankennedy/head-first-go/ch5/average"
 )
 
 func main() {
@@ -30,4 +31,6 @@ func main() {
 	ch4_greet_dansk.GodMorgen()
 	ch4_greeting_deutsch.Hallo()
 	ch4_greeting_deutsch.GutenTag()
+
+	ch5_average.Average()
 }
