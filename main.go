@@ -8,6 +8,7 @@ import (
 	ch4_greet_dansk "github.com/sebastiankennedy/head-first-go/ch4/greeting/dansk"
 	ch4_greeting_deutsch "github.com/sebastiankennedy/head-first-go/ch4/greeting/deutsch"
 	ch5_average "github.com/sebastiankennedy/head-first-go/ch5/average"
+	ch6_average "github.com/sebastiankennedy/head-first-go/ch6/average"
 )
 
 func main() {
@@ -33,4 +34,6 @@ func main() {
 	ch4_greeting_deutsch.GutenTag()
 
 	ch5_average.Average()
+
+	ch6_average.Average()
 }
